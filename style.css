@@ -1,0 +1,81 @@
+body{
+  overflow-x:hidden;
+}
+#m{
+    height: 600px;
+}
+#n{
+    width: 350px;
+}
+.social-sidebar {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 1400px;
+    z-index: 1000;
+    font-size: 25px;
+  }
+  .social-sidebar a {
+    display: block;
+    margin: 10px 0;
+    color: #fff;
+    background-color: #007bff;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+  }
+  .social-sidebar a:hover {
+    background-color: #0056b3;
+  }
+.imggg{
+  height: 100vh;
+  background-image: url(../images/1012.jpg);
+  background-attachment: fixed;
+  background-size: contain;
+}
+  .card {
+    width: 18rem;
+    height: 32rem;
+    margin: 50px 100px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+  }
+  .card img {
+    height: 100%; 
+    object-fit: cover; 
+  }
+  .card_overlay {
+    position: relative;
+  }
+  .card_overlay::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.8); 
+    transition: width 0.5s ease; 
+    z-index: 1;
+  }
+  .card_overlay:hover::after {
+    width: 100%; 
+  }
+  .btn-primary {
+    display: block;
+    margin: 10px auto 0; 
+    width: 140px;
+  }
+.card_ovv:hover{
+  transform: scale(0.98,0.98);
+  transition: transform 2s; 
+}
+.circle{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url(../images/386089-PD34KU-636.jpg);
+  background-size: contain;
+}
+
